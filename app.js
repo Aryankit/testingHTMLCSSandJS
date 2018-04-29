@@ -1,4 +1,4 @@
-//a program which prints "yayy" 50 times
+//a program which prints ilu
 
 
 function doItBro(){
