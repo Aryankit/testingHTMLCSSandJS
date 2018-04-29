@@ -4,10 +4,13 @@
 function doItBro(){
 
 
-var a = prompt("How many yayys? give me a number");
+
+
+var name = prompt("Well first of all, What's your name?")
+var a = prompt("How many? give me a number");
 	for(i=1;i<=a;i++){
 		function printsYayy(){
-			document.getElementById("printSpace").innerHTML += "<div>"+"<p>"+i+". " + "I love you 😉😅"+"</p>"+"</div>"
+document.getElementById("printSpace").innerHTML += "<div>"+"<p>"+i+". " + "I love you 😉😅"+ " "+ name +"!!"+"</p>"+"</div>"
 		}
 	
 		printsYayy();
